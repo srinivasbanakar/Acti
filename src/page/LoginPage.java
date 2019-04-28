@@ -9,7 +9,7 @@ public class LoginPage
 {
 	@FindBy(name="username")
 	private WebElement un;
-	LoginPage(WebDriver driver)
+	 public LoginPage(WebDriver driver)
 	{
 		PageFactory.initElements(driver, this);
 	}
